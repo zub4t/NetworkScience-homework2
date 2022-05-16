@@ -1,0 +1,32 @@
+gtrieScanner Results
+------------------------------------------
+General Information
+
+Start of Computation: 14h57m03s 16/05/2022
+End of Computation: 14h57m03s 16/05/2022
+
+Subgraph Size: 3
+Graph File: "network_erdos.txt"
+Directed: NO
+Nr Nodes: 1999
+Nr Edges: 201
+
+Method: ESU on original network
+Different Types of Subgraphs Found [Original Network]: 1
+Subgraph Occurrences Found [Original Network]: 41
+Time for computing census on original network: 0.000152s
+Average time for census on random network: 0.000000s
+
+Number of random networks: 0
+Random seed: 1652709423
+Exchanges per edge: 3
+Number of tries per exchange: 10
+------------------------------------------
+Motif Analysis Results
+
+Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
+
+011
+100
+100           41 |     0.00 |       0.00 +/-       0.00
+
