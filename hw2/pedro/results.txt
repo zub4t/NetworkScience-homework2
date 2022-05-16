@@ -1,0 +1,39 @@
+6. a)
+Name of the movie: Blade Runner
+Number of nodes: 25
+Number of edges: 44
+Number of communities found: 3
+Modularity: 0.466
+
+Name of the movie: Godfather II
+Number of nodes: 78
+Number of edges: 219
+Number of communities found: 5
+Modularity: 0.395
+
+Name of the movie: The Lord of the Rings: The Return of the King
+Number of nodes: 35
+Number of edges: 98
+Number of communities found: 4
+Modularity: 0.472
+
+Name of the movie: Pulp Fiction
+Number of nodes: 38
+Number of edges: 102
+Number of communities found: 5
+Modularity: 0.326
+
+Name of the movie: Star Wars V
+Number of nodes: 37
+Number of edges: 82
+Number of communities found: 5
+Modularity: 0.359
+
+The networks that seem to present community structure are Blade Runner and Star Wars, this due to the fact that the communities are clearly separated from the other ones. Meaning each node in a community is largely stuck in it's same community.
+
+b)
+The layout was created by importing the files in Gephi, calculating Modularity and PageRank. Making the size of the nodes dependent on the PageRank and the color on it's modularity class. The layout is through Yifan Hu.
+
+The communities in StarWars represent the characters that shared the most screen time, in this scenario even if Luke, Han, Leia and Threepio shared alot of screen time. Luke had it's solo training in this movie as in he has his solo journey with mainly Yoda and interactions with e.g Ben or even Strange Voice.
+So in this context it makes sense for Luke to be in a different community than Han and Leia even if he has a direct connection to their community. In the other side we also have the Dark Side fully on it's community due to the fact most of the dark side didn't interact directly with the main characters, except of course Vader, Boba Fett and Imperial Officer.
+The communities in this movie are as expected.
