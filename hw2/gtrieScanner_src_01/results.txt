@@ -2,23 +2,23 @@ gtrieScanner Results
 ------------------------------------------
 General Information
 
-Start of Computation: 14h57m03s 16/05/2022
-End of Computation: 14h57m03s 16/05/2022
+Start of Computation: 15h12m10s 17/05/2022
+End of Computation: 15h12m10s 17/05/2022
 
 Subgraph Size: 3
-Graph File: "network_erdos.txt"
-Directed: NO
-Nr Nodes: 1999
-Nr Edges: 201
+Graph File: "./networks/networks/yeast.txt"
+Directed: YES
+Nr Nodes: 688
+Nr Edges: 1079
 
-Method: ESU on original network
-Different Types of Subgraphs Found [Original Network]: 1
-Subgraph Occurrences Found [Original Network]: 41
-Time for computing census on original network: 0.000152s
-Average time for census on random network: 0.000000s
+Method: GTRIE with file containing complete g-trie
+Different Types of Subgraphs Found [Original Network]: 7
+Subgraph Occurrences Found [Original Network]: 13150
+Time for computing census on original network: 0.001668s
+Average time for census on random network: 0.000173s
 
-Number of random networks: 0
-Random seed: 1652709423
+Number of random networks: 100
+Random seed: 1652796730
 Exchanges per edge: 3
 Number of tries per exchange: 10
 ------------------------------------------
@@ -26,7 +26,55 @@ Motif Analysis Results
 
 Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
 
+010
+100
+110            1 |      inf |       0.00 +/-       0.00
+
 011
 100
-100           41 |     0.00 |       0.00 +/-       0.00
+010            1 |      inf |       0.00 +/-       0.00
+
+011
+001
+000           70 |    13.91 |      14.10 +/-       4.02
+
+011
+100
+000           18 |     4.11 |       0.68 +/-       4.22
+
+001
+100
+000          293 |   -12.80 |     373.07 +/-       6.25
+
+011
+000
+000        11878 |   -13.41 |   11953.22 +/-       5.61
+
+000
+100
+100          889 |   -14.56 |     947.81 +/-       4.04
+
+001
+100
+010            0 |     -nan |       0.00 +/-       0.00
+
+010
+100
+100            0 |     -nan |       0.00 +/-       0.00
+
+011
+100
+100            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+000            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+100            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+110            0 |     -nan |       0.00 +/-       0.00
 
