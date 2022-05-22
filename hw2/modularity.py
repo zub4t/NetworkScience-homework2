@@ -33,5 +33,3 @@ modularity = modularity / (2 * G.number_of_edges())
 
 print("Supposed modularity = " + str(nx_comm.modularity(G, louvain_comms)))
 print("Our Modularity = " + str(modularity))
-
-
