@@ -2,11 +2,11 @@ gtrieScanner Results
 ------------------------------------------
 General Information
 
-Start of Computation: 15h12m10s 17/05/2022
-End of Computation: 15h12m10s 17/05/2022
+Start of Computation: 10h27m53s 22/05/2022
+End of Computation: 10h27m53s 22/05/2022
 
 Subgraph Size: 3
-Graph File: "./networks/networks/yeast.txt"
+Graph File: "yeast.txt"
 Directed: YES
 Nr Nodes: 688
 Nr Edges: 1079
@@ -14,11 +14,11 @@ Nr Edges: 1079
 Method: GTRIE with file containing complete g-trie
 Different Types of Subgraphs Found [Original Network]: 7
 Subgraph Occurrences Found [Original Network]: 13150
-Time for computing census on original network: 0.001668s
-Average time for census on random network: 0.000173s
+Time for computing census on original network: 0.001488s
+Average time for census on random network: 0.000179s
 
-Number of random networks: 100
-Random seed: 1652796730
+Number of random networks: 500
+Random seed: 1653211673
 Exchanges per edge: 3
 Number of tries per exchange: 10
 ------------------------------------------
@@ -32,27 +32,27 @@ Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
 
 011
 100
-010            1 |      inf |       0.00 +/-       0.00
+010            1 |    22.32 |       0.00 +/-       0.04
 
 011
 001
-000           70 |    13.91 |      14.10 +/-       4.02
+000           70 |    13.56 |      14.59 +/-       4.09
 
 011
 100
-000           18 |     4.11 |       0.68 +/-       4.22
+000           18 |     3.29 |       1.18 +/-       5.11
 
 001
 100
-000          293 |   -12.80 |     373.07 +/-       6.25
+000          293 |   -10.62 |     371.91 +/-       7.43
 
 011
 000
-000        11878 |   -13.41 |   11953.22 +/-       5.61
+000        11878 |   -11.16 |   11952.21 +/-       6.65
 
 000
 100
-100          889 |   -14.56 |     947.81 +/-       4.04
+100          889 |   -13.87 |     947.27 +/-       4.20
 
 001
 100

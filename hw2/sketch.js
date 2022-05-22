@@ -15,7 +15,7 @@ let converged_nodes_list = {}
 function setup() {
     createCanvas(500, 500);
 
-    frameRate(10)
+    frameRate(50)
 }
 
 function draw() {
@@ -33,12 +33,14 @@ function draw() {
             line(node.x, node.y, neighbor.x, neighbor.y);
             stroke(100)
 
-            if (graph.convergedR != undefined) {
-                fill("black");
-                textSize(10);
-                text(graph.convergedR[node.label.charCodeAt(0) - 65], node.x - 10, node.y + 20);
-            }
+
         })
+
+        if (graph.convergedR != undefined) {
+            fill("black");
+            textSize(10);
+            text(graph.convergedR[node.label.charCodeAt(0) - 65], node.x - 10, node.y + 20);
+        }
 
     })
     if (graph.matrix != undefined) {
